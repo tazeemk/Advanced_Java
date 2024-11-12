@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+*{
+   margin:0px;
+   padding:0px;
+}
+.container{
+width:800px;
+height:400px;
+box-sizing:border-box;
+margin: 100px auto;
+box-shadow:6px 6px 12px 6px green; 
+}
+.container .box1{
+width:400px;
+height:400px;
+float:left;
+background-color: aqua;
+
+
+}
+.container .box1 h1{
+text-align: center;
+font-family: cursive;
+padding: 10px 15px;
+}
+.container .box2{
+width:400px;
+height:400px;
+float:right;
+background-color: gray;
+
+}
+.container .box2 img
+{
+width:90%;
+height:90%;
+
+padding:10px;
+}
+.container .box1 form
+{
+
+margin:70px 70px;
+padding:auto;
+}
+.container .box1 input[type="text"],input[type="password"]{
+width:200px;
+height:30px;
+margin:10px;
+border:none;
+border-radius:10px;
+
+}
+.container .box1 input[type="submit"]{
+margin:10px 60px;
+height:25px;
+width:70px;
+padding:auto;
+border:none;
+border-radius: 10px;
+}
+.container .box1 .ar{
+
+margin:70px 25px;
+text-decoration: underline;
+
+}
+[type="text"] ::placeholder{
+text-align: center;
+color:cyan;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="box1">
+<h1>login</h1>
+<form action="log" method="post">
+<input type ="text" name="uname"required  placeholder="UserName"><br>
+<input type="password" name="pword" required placeholder="Password"><br>
+<input type ="submit" value="Submit "><br><br><br><br>
+<a href="registration.html" class="ar"> &nbsp &nbsp &nbsp &nbsp New User &nbsp &nbsp &nbsp &nbsp</a>
+
+</form>
+</div>
+<div class="box2">
+
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b2001a68-c2ef-41c2-9e5c-78407b5224cf/dg95gcv-4d421d17-9904-4ef9-80b8-8cb039d27afb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IyMDAxYTY4LWMyZWYtNDFjMi05ZTVjLTc4NDA3YjUyMjRjZlwvZGc5NWdjdi00ZDQyMWQxNy05OTA0LTRlZjktODBiOC04Y2IwMzlkMjdhZmIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J9v70NhQZA-wkYbpxfJUBnmdUzyTnT7ziguzLdb-cx8"/>
+
+
+
+</div>
+</div>
+</body>
+</html>
