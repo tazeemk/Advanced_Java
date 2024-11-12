@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSP </title>
+<style>
+*{
+margin:0;
+padding:0;
+}
+.container{
+width: 400px;
+height:600px;
+margin:100px auto;
+box-sizing: border-box;
+border-radius:10px;
+background: gray;
+box-shadow: 6px 6px 12px 6px teal;
+}
+
+
+.container form{
+margin:90px 90px;
+padding:auto;
+}
+.container form h1{
+text-align:center;
+margin:40px 90px;
+}
+.container form input
+{
+margin:15px 40px;
+padding:auto;
+border:none;
+width:180px;
+border-radius:5px;
+color:blue;
+
+}
+.container form input[placeholder]{
+text-align:center;
+font-family: cursive;
+text-shadow: 6px 6px 12px 6px aqua;
+}
+ .container form input[type="submit"] 
+{
+margin:35px 40px;
+
+height:30px;
+
+}
+ .container form input[value="display"]{
+ font-size: large;
+font-family: fantasy; 
+ }
+
+
+</style>
+</head>
+<body>
+<div class="container">
+<form action="dis" method="post" >
+<h1>form</h1>
+<input type="text" name="uname" placeholder="UserName"><br>
+<input type ="password" name="pword" placeholder="PassWord"><br>
+<input type="text" name="fname" placeholder="FirstName"><br>
+<input type="text" name="lname" placeholder="LastName"><br>
+<input type ="text" name="cty" placeholder="City"><br>
+<input type="text" name="ste" placeholder="State"><br>
+<input type="text" name="eid" placeholder="Email Id"><br>
+<input type="number" name="num" placeholder="PhoneNumber"><br>
+  <input type="submit" value="display">
+
+</form>
+</div>
+</body>
+</html>
